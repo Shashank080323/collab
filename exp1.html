@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Railway Reservation system</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    @font-face {
+  font-family: myFirstFont;
+  src: url(sansation_bold.woff);
+  font-weight: bold;
+    }
+    div {
+    background: rgba(0, 175, 0, 0.3)
+  }
+    .check {  
+    position: absolute;  
+    top: 0;  
+    left: 0;  
+    height: 30px;  
+    width: 30px;  
+    background-color: lightgray;  
+    border-radius: 50%;  
+    }
+</style>
+
+<body class="bg">
+
+
+    <h1 class="heading">Railway Reservation System</h1>
+   <img src="railway.jpg" width="300" alt=""> 
+   <hr>
+   <label for="Railway-Station" class="dest">Choose your Destination:</label>  
+    <input list="Railway" id="Railway-Station" name="Railway-Station" />
+
+    <datalist id="Railway">
+        <option value="Kokan">
+        <option value="Kolhapur">
+        <option value="Nagpur">
+        <option value="Hyderabad">
+        <option value="Goa">
+    </datalist>
+    <table class="table">
+    
+        <tr>
+            <th>Gender</th>
+            <th>Age</th>
+            <th>Ticket Type</th>
+            <th>Reservation</th>
+        </tr>
+        <tr><td>male</td>
+            <td>15</td>
+            <td>AC3</td>
+            <td>waiting</td>
+        </tr>
+        <tr><td>male</td>
+            <td>56</td>
+            <td>General</td>
+            <td>confirmed</td>
+        </tr>
+    </tr>
+    <tr><td>Female</td>
+        <td>20</td>
+        <td>AC2</td>
+        <td>confirmed</td>
+    </tr>
+      
+    </table>
+    
+    <h2 class="radio"> Select your SERVICE </h2>  
+<label class="container">PANTRY
+  <input type="radio" name="radio" checked>  
+  <span class="check"></span>  
+</label>  
+<label class="container">BLANKET 
+  <input type="radio" name="radio">  
+  <span class="check"></span>  
+</label>  
+<label class="container">DRINKS
+  <input type="radio" name="radio">  
+  <span class="check"></span>  
+</label>  
+<label class="container">CLEANING  
+  <input type="radio" name="radio">  
+  <span class="check"></span>  
+</label>
+<button class="button button1">Book now!</button>
+<element onclick="myScript"></element>
+<section>
+<footer>
+    <h2>FAQ</h2>
+    <h2>Conatct Us</h2>
+</footer>
+</section>
+
+</body>
+ 
+</html>

@@ -1,0 +1,77 @@
+
+ .heading  {
+  background-color: rgb(255, 77, 71);
+  color: rgb(0, 0, 0);
+  border: 2px solid black;
+  margin: 10px;
+  padding: 20px;
+  text-align: center;
+  font-family: "Lucida Console", "Courier New", monospace;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  
+  
+} 
+
+.bg{
+    background: url("https://images.railyatri.in/assets/dweb/section-1/low/know-16e2a861fd72ad44f31578ade3c95177efa48c7fba0411dc188df4ac4d77218c.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    ;
+
+}
+    table, th, td  {
+        border: 1px solid;
+               width: 20%;
+               
+               text-align: center;
+               border-color:white;
+               color: antiquewhite;
+               border-collapse: collapse;
+               color: white;
+               text-shadow: 2px 2px 4px #000000;
+               
+    }
+    th {
+        
+        color: white;rgb(4, 123, 170)rgb(82, 200, 247)
+      }     
+.radio{
+        color: hsl(0, 100%, 75%) ;
+      } 
+.container{
+    color:hsl(39, 100%, 50%)
+         }
+.dest{
+   color: #f0f0f0;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button1 {background-color: cyan;
+    width: 100px;
+    height: 50px;
+    background-color: ;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+.button:hover span {
+    padding-right: 25px;
+  }
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+<button class="button"><span>Book now</span></button>
