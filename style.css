@@ -13,13 +13,9 @@
   
 } 
 
-.bg{
-    background: url("https://images.railyatri.in/assets/dweb/section-1/low/know-16e2a861fd72ad44f31578ade3c95177efa48c7fba0411dc188df4ac4d77218c.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    ;
 
-}
+
+
     table, th, td  {
         border: 1px solid;
                width: 20%;
@@ -34,10 +30,10 @@
     }
     th {
         
-        color: white;rgb(4, 123, 170)rgb(82, 200, 247)
+        color: white;
       }     
 .radio{
-        color: hsl(0, 100%, 75%) ;
+        color: aqua;
       } 
 .container{
     color:hsl(39, 100%, 50%)
@@ -51,12 +47,12 @@
   position: relative;
   transition: 0.5s;
 }
-.button1 {background-color: cyan;
+.button1:hover{background-color: cyan;
     width: 100px;
     height: 50px;
-    background-color: ;
     animation-name: example;
     animation-duration: 4s;
+
   }
 
 .button span:after {
@@ -74,4 +70,3 @@
     opacity: 1;
     right: 0;
   }
-<button class="button"><span>Book now</span></button>

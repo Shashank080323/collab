@@ -14,7 +14,7 @@
   font-weight: bold;
     }
     div {
-    background: rgba(0, 175, 0, 0.3)
+    background: rgba(19, 20, 19, 0.3)
   }
     .check {  
     position: absolute;  
@@ -25,19 +25,44 @@
     background-color: lightgray;  
     border-radius: 50%;  
     }
+    table,tr,td,th{
+      background-color: rgb(5, 5, 5);
+      padding: 2px;
+      margin: 2px;
+      font-style: italic;
+
+    }
+    .bg{
+      background-image: url("bg.jpg");
+      
+    }
 </style>
 
 <body class="bg">
-
+  
 
     <h1 class="heading">Railway Reservation System</h1>
-   <img src="railway.jpg" width="300" alt=""> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="topnav" id="myTopnav">
+  <a href="#home" class="active" target="_blank">Home</a>
+  <a href="#news" target="_blank">News</a>
+  <a href="#contact" target="_blank">Contact</a>
+  <a href="#about" target="_blank">About</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+    <nav>
+      <a href="#">check </nav>a>
+    </nav>
+    
    <hr>
    <label for="Railway-Station" class="dest">Choose your holiday destination:</label>  
     <input list="Railway" id="Railway-Station" name="Railway-Station" />
 
     <datalist id="Railway">
-        <option value="Kokan">
+        <option value="Satara">
         <option value="Kolhapur">
         <option value="Nagpur">
         <option value="Hyderabad">
@@ -46,7 +71,7 @@
     <table class="table">
     
         <tr>
-            <th>Gender</th>
+            <th>Female</th>
             <th>Age</th>
             <th>Ticket Type</th>
             <th>Reservation</th>
@@ -87,12 +112,12 @@
   <input type="radio" name="radio">  
   <span class="check"></span>  
 </label>
-<button class="button button1">Book now!</button>
+<button class="button1">Book now!</button>
 <element onclick="myScript"></element>
 <section>
 <footer>
     <h2>FAQ</h2>
-    <h2>Conatct Us</h2>
+    <h2>Contact Us</h2>
 </footer>
 </section>
 
